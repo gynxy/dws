@@ -1,0 +1,47 @@
+:root {
+  --theme-color: #d62828;
+}
+
+body {
+  background-color: #0d1117;
+}
+
+.sidebar {
+  background-color: #111827;
+  border-right: 1px solid #222;
+}
+
+.sidebar ul li a {
+  color: #d1d5db;
+}
+
+.sidebar ul li.active > a {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.app-name img {
+  max-width: 140px;
+  margin: 20px auto;
+  display: block;
+}
+
+.markdown-section {
+  max-width: 1000px;
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3 {
+  color: #ff4d4d;
+}
+
+.markdown-section img {
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+table {
+  display: table;
+  width: 100%;
+}
